@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    padding: 5% 0% 0% 27%;
+}
+
+section{
+    color: white;
+}
+
+footer{
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#contato{
+    color: black; 
+    padding: 5% 0% 0% 20%;
+}
+
+#contato li{
+    display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px;
+}
+
+#contato h3{
+    font-size: 3em;
+    padding: 0% 0% 0% 7%;
+}
+
+#contato .email{
+    background-image: url("../Img/email.png"); 
+}
+
+#contato .instagram{
+    background-image: url("../Img/instagram.png"); 
+}
+
+#contato .facebook{
+    background-image: url("../Img/facebook.png"); 
+}
